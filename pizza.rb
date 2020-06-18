@@ -37,19 +37,3 @@ for i in 1..15
 end
 
 
-
-=begin
-i=1
-for i in 1..32
-price=driver.find_element(:xpath,"(//span[@class='rupee'])[#{i}]").text
-puts"the price of pizza #{i} is "+price
-end
-
-j=1
-for j in 1..32
-  description=driver.find_element(:xpath,"(//span[@class='itm-dsc__dscrptn'])[#{j}]").text
-  puts"decription of pizza#{j} is "+description
-
-sleep 3
-end
-=end
